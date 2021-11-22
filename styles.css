@@ -1,0 +1,74 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+img{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 15%;
+    cursor: pointer;
+    transition: 0.3s;
+   
+}
+
+img:hover{
+    border: 3px solid black;
+}
+
+/* #Rock{
+    border: 3px solid #14d4e5;
+}
+
+#Paper{
+    border: 3px solid #6cd37c;
+}
+
+#Scissor{
+    border: 3px solid #e76cd9;
+} */
+
+
+
+.container{
+
+    margin: 10px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 300px;
+    
+}
+
+.results-container{
+    margin: auto;
+    text-align: center;
+}
+
+.head-top{
+    margin: 10px auto;
+    text-align: center;
+    margin: 3rem;
+    justify-content: center;
+}
+
+.score-container{
+    margin: 10px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.new-game{
+    border: 3px solid black;
+    padding: 20px;
+    margin: auto;
+    width: 100px;
+    cursor: pointer;
+  }
+
+  li{
+      list-style-type: none;
+  }
+
