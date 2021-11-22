@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -72,3 +73,50 @@ img:hover{
       list-style-type: none;
   }
 
+=======
+img{
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 15%;
+    cursor: pointer;
+    transition: 0.3s;
+   
+
+}
+
+.container{
+
+    margin: 10px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+.head-top{
+    margin: 10px auto;
+    text-align: center;
+    margin: 3rem;
+    justify-content: center;
+}
+
+.score-container{
+    margin: 10px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.new-game{
+    border: 3px solid black;
+    padding: 20px;
+    margin: auto;
+    width: 5%;
+    cursor: pointer;
+  }
+
+>>>>>>> origin
